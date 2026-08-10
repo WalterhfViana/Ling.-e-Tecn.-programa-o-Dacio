@@ -4,16 +4,15 @@
 
 int main(int argc, char** argv) {
 	
-	char saida;
 	float base,altura,area;
 	
 	// Pede o primeiro numero
-	std::cout << "Digite o tamanho da base: ";
-	std::cin >> base;
+	printf("Digite o tamanho da base:\n");
+	scanf("%f",&base);
 	
 	// Pede o segundo numero
-	std::cout << "Digite a altura: ";
-	std::cin >> altura;
+	printf("Digite a altura:\n");
+	scanf("%f",&altura);
 	
 	//faz a conta
 	area = (base*altura)/2;

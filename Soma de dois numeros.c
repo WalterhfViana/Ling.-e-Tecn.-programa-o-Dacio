@@ -7,12 +7,12 @@ int main(int argc, char** argv) {
 	int a,b,c;
 	
 	// Pede o primeiro numero
-	std::cout << "Digite um numero: ";
-	std::cin >> a;
+	printf("Escreva o primeiro numero:\n")
+	scanf("%d",&a);
 	
 	// Pede o segundo numero
-	std::cout << "Digite outro numero para ser somado: ";
-	std::cin >> b;
+	printf("Escreva o segundo numero:\n")
+	scanf("%d",&b);
 	
 	//soma os numeros
 	c = a+b;

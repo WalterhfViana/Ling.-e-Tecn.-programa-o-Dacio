@@ -7,11 +7,11 @@ int main(int argc, char** argv) {
 	int a,b,c;
 	
 	// Pede o primeiro numero
-	printf("Escreva o primeiro numero:\n")
+	printf("Escreva o primeiro numero:\n");
 	scanf("%d",&a);
 	
 	// Pede o segundo numero
-	printf("Escreva o segundo numero:\n")
+	printf("Escreva o segundo numero:\n");
 	scanf("%d",&b);
 	
 	//soma os numeros

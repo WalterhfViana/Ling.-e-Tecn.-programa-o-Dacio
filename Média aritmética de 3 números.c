@@ -10,13 +10,10 @@ int main(int argc, char** argv) {
 	printf("Escreva o primeiro numero: ");
 	scanf("%d",&a);
 	
-	
-	// Pede o primeiro numero
+	// Pede o segundo numero
 	printf("Escreva o segundo numero: "); scanf("%d",&b);
 	
-	
-	
-	// Pede o primeiro numero
+	// Pede o terceiro numero
 	printf("Escreva o terceiro numero: ");
 	scanf("%d",&c);
 		

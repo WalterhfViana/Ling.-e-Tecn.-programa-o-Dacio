@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <math.h>
+ 
+int main() {
+
+    double n1, n2, n3, n4;
+    double soma, media, produto;
+ 
+    printf("Digite o primeiro valor: ");
+    scanf("%lf", &n1);
+ 
+    printf("Digite o segundo valor: ");
+    scanf("%lf", &n2);
+ 
+    printf("Digite o terceiro valor: ");
+    scanf("%lf", &n3);
+ 
+    printf("Digite o quarto valor: ");
+    scanf("%lf", &n4);
+ 
+    soma = n1 + n2 + n3 + n4;
+    media = soma / 4.0;
+    produto = n1 * n2 * n3 * n4;
+ 
+    printf("Soma = %.2lf\n", soma);
+    printf("Media = %.2lf\n", media);
+    printf("Produtorio = %.2lf\n", produto);
+
+    return 0;
+}

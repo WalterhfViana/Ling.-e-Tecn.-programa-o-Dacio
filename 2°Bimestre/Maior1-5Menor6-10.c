@@ -3,6 +3,10 @@ int compare1 (int a, int b){
 	if (a<b) return b;
 	else return a;
 };
+int compare2 (int a, int b){
+	if (a>b) return b;
+	else return a;
+};
 
 int main(int argc, char *argv[]) {
     int lista[10], tamanho, i,ordem,a,b,x,y;
@@ -29,11 +33,11 @@ int main(int argc, char *argv[]) {
 	
 	y = lista[5];
 	while (i<10){
-		y = compare1(y,lista[i]);
+		y = compare2(y,lista[i]);
 		i++;}
 		
 	printf("\nMaior dos 5 primeiros: %d",x);
-	printf("\nMaior dos 5 ultimos: %d",y );		
+	printf("\nMenor dos 5 ultimos: %d",y );		
 	    
     return 0;
 }

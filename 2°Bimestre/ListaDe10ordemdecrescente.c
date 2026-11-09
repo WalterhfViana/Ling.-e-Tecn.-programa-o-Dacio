@@ -11,7 +11,7 @@ int main()
     for (i=0;i<10;i++){
     printf("|%d| ", lista[i]);}
     maior=0;
-    for (int j=10;j>0;j--){
+    for ( j=10;j>0;j--){
     
         for (i=0;i<10;i++){
             if (lista[maior]>lista[i]){
@@ -22,7 +22,7 @@ int main()
     maior=0;
     }
     printf("\n ordem decrescente");
-    for (int j=9;j>=0;j--){ 
+    for ( j=9;j>=0;j--){ 
         printf("|%d| ",ordem[j]);}
     
     return 0;

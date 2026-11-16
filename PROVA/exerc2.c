@@ -14,20 +14,22 @@ int divisor (int a,int b){
 		return b;
 	} else if( (a%b) * (a/b ) == a ){
 		return b;
-		};
+		}else return 0;
 }
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int lista[10],i,j;
+	int lista[10],i,j,resto,divisao;
 	for (i=0;i<10;i++){
 	printf("escreva o %d numero: ",i+1);
 	scanf("%d",&lista[i]);
 	}
+
 	printf("Lista: ");
 	for (i=0;i<10;i++){
 	printf("%d|",lista[i]);
 	}
+
 	for (j=0;j<10;j++){
 		printf("\n Divisores de %d: ",lista[j]);
 		for (i=1;i<=lista[j];i++){
